@@ -190,3 +190,64 @@ img {
 .show-menu{
   right: 0;
 }
+.home_container{
+  padding-top:2.5rem;
+  row-gap: 2rem;
+}
+.home_img{
+  width: 270px;
+  filter: drop-shadow(var(--shadow-img));
+  justify-self: center;
+}
+.home_data{
+  text-align: center;
+}
+.home_title{
+  font-size: var(--biggest-font-size);
+  font-weight: var(--font-bold);
+  margin-bottom: 1rem;
+}
+.home_title span{
+  color: #FFB6C1;
+}
+.home_description{
+  margin-bottom: 3rem;
+}
+
+.home_buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button{
+  background-color: #FFFFFF;
+  color: black;
+  font-weight: bold;
+  padding: .5em 1.5rem .5rem .5rem;
+  border-radius: 4rem;
+  display: inline-flex;
+  align-items: center;
+  column-gap: .75rem;
+}
+.button span{
+  background-color: #FFB6C1;
+  padding: .5rem;
+  font-size: 1.25rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  transition: transform .4s;
+}
+.button:hover span{
+  transform: translateX(.15rem) rotate(-30deg);
+}
+.button_link{
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: color .4s;
+  padding-left: .6rem;
+}
+.button_link:hover{
+  color: #FFB6C1;
+}
